@@ -5,6 +5,7 @@
   "name": "tforum",
   "main": "src/index.ts",
   "compatibility_date": "2026-11-01",
+  "observability": { "enabled": true, "logs": { "invocation_logs": true } },
   // 静态资源（public/ 目录：CSS/JS/图片），对应 PHP 版 assets/
   "assets": {
     "directory": "./public",
@@ -15,7 +16,7 @@
       "binding": "DB",
       "database_name": "tforum-db",
       // ↓↓↓ 占位符，部署前必须替换为真实 database_id ↓↓↓
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "dd243ede-dc7f-4c86-8dae-eefe96790bf9",
       "migrations_dir": "migrations"
     }
   ],
